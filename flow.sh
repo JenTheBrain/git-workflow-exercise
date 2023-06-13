@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # stage changes
-git _
+git add --all
 
 # commit changes
-git _
+git commit -m "updated flow.sh file with basic git workflow commands"
 
 # push changes
-git _
+git push -u origin main
